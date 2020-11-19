@@ -1,3 +1,7 @@
+# !wget https://raw.githubusercontent.com/helloezmeral/what-is-this-local/main/keras_model.h5
+# !wget https://raw.githubusercontent.com/helloezmeral/what-is-this-local/main/labels.txt
+# !wget "https://github.com/helloezmeral/what-is-this-local/blob/main/EL300 (13).jpg?raw=true"
+
 import tensorflow.keras
 from PIL import Image, ImageOps
 import numpy as np
@@ -50,7 +54,7 @@ def run_prediction(in_image_array):
     prediction = model.predict(data)
     return prediction, labels[np.argmax(prediction[0])]
 
-
+run_prediction(jpg_path2array('EL300.jpg'))
 
 
 import cv2
