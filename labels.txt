@@ -1,0 +1,6 @@
+0 EL300
+1 GL20
+2 vRack
+3 Gen10P
+4 Background
+5 GL10
