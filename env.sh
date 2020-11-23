@@ -9,3 +9,12 @@
 !pip install opencv-python
 # !apt install wget -qq
 # !pip install tensorflow
+
+
+
+
+############ Bare Metal #################
+/home/gl20-iot-gateway/Desktop/opencv/env01/bin/python -m pip install --upgrade pip
+pip install opencv-python
+pip install tensorflow
+pip install Pillow
